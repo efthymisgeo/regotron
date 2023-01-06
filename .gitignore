@@ -2,3 +2,4 @@ __pycache__/
 tacotron2/__pycache__/
 tacotron2/text/__pycache__/
 waveglow/__pycache__/
+scripts/docker/interactive_mount_paper_debug.sh

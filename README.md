@@ -51,9 +51,8 @@ this script, issue:
    `./LJSpeech-1.1` directory is mounted to the `/workspace/tacotron2/LJSpeech-1.1`
    location in the NGC container.
 
-1. Build the Regotron/Tacotron2/WaveGlow container.
+1. Build the Regotron container.
    ```bash
-   # FIX ME
    bash scripts/docker/build.sh
    ```
 
@@ -61,8 +60,7 @@ this script, issue:
 After you build the container image, you can start an interactive CLI session with:
 
    ```bash
-   # FIX ME
-   bash scripts/docker/interactive.sh
+   bash scripts/docker/interactive_mount_paper.sh
    ```
 
    The `interactive.sh` script requires that the location on the dataset is specified.
